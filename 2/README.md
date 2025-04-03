@@ -63,3 +63,4 @@ Then it should appear in Docker Hub
 
 In the same folder with the application files add a file named *.github/workflows/docker-build.yml* with the needed actions (more info at https://docs.github.com/en/actions/writing-workflows/quickstart)
 
+Used GitHub Secret Repository (just discovered this) for securing some variables.
