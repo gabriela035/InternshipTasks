@@ -18,7 +18,7 @@ Following *docs.docker*, in app folder, add a new file named Dockerfile with:
 
 `EXPOSE 8080` <sup>Expose the port the app will run on</sup>
 
-`CMD ["node", "index.js"]` <sup>Define the command to run the app</sup>
+`CMD ["node", "notes.js"]` <sup>Define the command to run the app</sup>
 
 
 ## Build the Docker image locally
