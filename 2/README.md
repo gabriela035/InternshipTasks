@@ -47,4 +47,19 @@ To test if it works, open the port from Docker and insert some data.
 ![image](https://github.com/user-attachments/assets/3659dbda-fe39-4551-9775-25f2ab32a4da)
 
 
+## Create a repository for image on DockerHub
+
+First, you should log in to Docker Hub from the Command Line with `docker login`
+Tag Your Docker Image: `docker tag image-name username/repository-name:latest`
+Push Your Docker Image to Docker Hub: `docker push username/image-name:latest`
+Then it should appear in Docker Hub
+
+![image](https://github.com/user-attachments/assets/1b32a70f-0210-4c0e-9da3-da574a39b82a)
+
+
+
+
+# Automation using GitHub Actions
+
+In the same folder with the application files add a file named *.github/workflows/docker-build.yml* with the needed actions (more info at https://docs.github.com/en/actions/writing-workflows/quickstart)
 
